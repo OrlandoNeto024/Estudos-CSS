@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color:rgb(50, 210, 157);
+    padding: 50px;
+    width: 400px;
+    margin-left: 200px;
+}
+.caixa1{
+    background-color: #00ffff;
+    padding: 50px;
+    width: 80px;
+    margin-bottom: 50px;
+}
+.caixa2{
+    background-color: blueviolet;
+    padding: 50px;
+    height: 180px;
+    width: 80px;
+}

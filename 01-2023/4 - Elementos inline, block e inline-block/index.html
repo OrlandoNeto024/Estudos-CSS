@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: #ccc;
+            height: 1000px;
+        }
+
+        a{
+            text-decoration: none;
+            padding: 2px;
+            margin-left: 10px;
+            margin-top: 3%;
+        }
+
+        /* Links não visitados */
+        a:link{
+            color: #efb700;
+        }
+        /* Links visitados */
+        a:visited{
+            color: #9e7a04;
+        }
+        /* Links Hover, passar o cursor sobre o link */
+        a:hover{
+            color: yellow;
+            padding: 2px;
+            border: 1px solid yellow;
+            border-radius: 10px;
+            transition: 0.2s;
+        }
+        /* Links Ativos, quando clicado */
+        a:active{
+            color: #c49805;
+            border: 1px solid #c49805;
+            border-radius: 10px;
+        }
+        .menu{
+            border: 1px solid #000;
+            position: fixed;
+            height: 40px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu" >
+        <a href="https://www.djangoproject.com/" target="_blank" >Django </a>
+        <a href="https://www.javascript.com/" target="_blank" >JavaScript </a>
+        <a href="https://estacio.br/" target="_blank" >Estácio</a>
+    </div>
+</body>
+</html>
