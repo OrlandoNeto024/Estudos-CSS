@@ -1,6 +1,13 @@
 function calcular(){
     const peso = document.getElementById('peso').value;
+    if (peso == ''){
+        alert('Digite um peso válido.')
+        
+    }
     const altura = document.getElementById('altura').value;
+    if (altura == ''){
+        alert('Digite uma altura válida')
+    }
    
     var imc = peso / (altura * altura)
     imc = imc.toFixed(2)
