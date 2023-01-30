@@ -87,10 +87,11 @@ footer{
 #footer-elements{
     color: #fff;
     width: 35%;
+    text-align: center;
     margin: 25px auto;
 }
 
 #footer-elements p{
     display: inline-block;
-    margin-left: 18%;
+    margin-left: 10%;
 }
